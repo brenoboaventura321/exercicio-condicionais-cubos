@@ -3,3 +3,12 @@ const idadeDoAluno = 16;
 
 //valor verdadeiro ou falso que informa se possui responsável
 const possuiResponsavel = false;
+
+if(idadeDoAluno>=18){
+    console.log("pode realizar a rematricula sozinho");
+
+}else if(possuiResponsavel){
+    console.log("pode somente dom o responsavel")
+}else{
+    console.log("Não é possivel fazer a rematricula");
+}
